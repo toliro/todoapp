@@ -1,0 +1,32 @@
+
+.tasks{
+    border-collapse: separate;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    font-size: large;
+    border: 1px groove black;
+}
+
+thead{
+    background-color: lightgreen;
+
+}
+
+.even{
+    background-color: lightgray;
+    border-bottom-color: yellow;
+}
+
+#viewUsers{
+    background-color: aqua;
+}
+
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+    width: 60%;  
+}
+
+
+
