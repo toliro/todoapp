@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "/css/user.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form class="user-form" action="sign_up">
+            <h1>Add User</h1>
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="fname" id="user" required>
+                    
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="lname" id="user" required>
+        
+            <label for="occupation"><b>Occupation</b></label>
+            <input type="text" placeholder="Enter occupation" name="occupation" id="user" required>
+        
+            <label for="owner"><b>Profile Picture</b></label>
+            <input type="file"  name="profile" id="user" required>
+                    
+            <button type="submit" class="btn">Add</button>
+            <button class="cancel">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
