@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel = "stylesheet"
-    type = "text/css"
-    href = "/css/user.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/user.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="main-div">
-        <div class="profile">
-            <img src="/image/profile.jpg" width="400px;" alt="Profile Picture">
-            <input type="file" name="pics" id="pics">
-        </div>
-        <a href="user.html"><button id="back">Go Back</button></a>
-        <hr>
+      <div class="profile">
+        <img src="/image/profile.jpg" width="400px;" alt="Profile Picture" />
+        <input type="file" name="pics" id="pics" />
+      </div>
+      <a href="user.html"><button id="back">Go Back</button></a>
+      <hr />
 
-        <div class="div-form">
-            <form class="user_details_form" action="">
-                <h1>Edit User Details</h1>
-                <label for="userId"><b>First Name</b></label>
-                <input type="text" placeholder="Enter User Id" name="userId" id="user" required>
+      <div class="div-form">
+        <form class="user_details_form" action="">
+          <h1>Edit User Details</h1>
+          <label for="userId"><b>First Name</b></label>
+          <input
+            type="text"
+            placeholder="Enter User Id"
+            name="userId"
+            id="user"
+            required
+          />
 
-                <label for="fname"><b>First Name</b></label>
-                <input type="text" placeholder="Enter First Name" name="fname" id="user" required>
-                            
-                <label for="lname"><b>Last Name</b></label>
-                <input type="text" placeholder="Enter Last Name" name="lname" id="user" required>
-                
-                <label for="occupation"><b>Occupation</b></label>
-                <input type="text" placeholder="Enter occupation" name="occupation" id="user" required>
-                
-                <label for="numberOfTodos"><b># of Todos</b></label>
-                <input type="text"  name="profile" id="user" required>
-                            
-                <button type="submit" class="btn">Update</button>
-                <button class="cancel">Cancel</button>
-            </form>
-        </div>
+          <label for="fname"><b>First Name</b></label>
+          <input
+            type="text"
+            placeholder="Enter First Name"
+            name="fname"
+            id="user"
+            required
+          />
+
+          <label for="lname"><b>Last Name</b></label>
+          <input
+            type="text"
+            placeholder="Enter Last Name"
+            name="lname"
+            id="user"
+            required
+          />
+
+          <label for="occupation"><b>Occupation</b></label>
+          <input
+            type="text"
+            placeholder="Enter occupation"
+            name="occupation"
+            id="user"
+            required
+          />
+
+          <label for="numberOfTodos"><b># of Todos</b></label>
+          <input type="text" name="profile" id="user" required />
+
+          <button type="submit" class="btn">Update</button>
+          <button class="cancel">Cancel</button>
+        </form>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

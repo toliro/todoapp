@@ -1,72 +1,66 @@
-
-.tasks{
-    border-collapse: separate;
-    padding: 8px;
-    font-family: 'Times New Roman', Times, serif;
-    width: 60%;
-    font-size: large;
-    border: 1px groove black;
+.tasks {
+  border-collapse: separate;
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  width: 60%;
+  font-size: large;
+  border: 1px groove black;
 }
 
-thead{
-    background-color: lightgreen;
-
+thead {
+  background-color: lightgreen;
 }
 
-.even{
-    background-color: lightgray;
+.even {
+  background-color: lightgray;
 }
 
-#viewUsers{
-    margin-left: 600px;
+#viewUsers {
+  margin-left: 600px;
 }
 
-.header{
-    background-color: dodgerblue;
-    width: 60%;  
+.header {
+  background-color: dodgerblue;
+  width: 60%;
 }
 
 /* style for todo form */
-.todo-form{
-    position: absolute;
-    right: 40%;
-    margin: 20px;
-    max-width: 300px;
-    padding: 16px;
-    background-color: white;
+.todo-form {
+  position: absolute;
+  right: 40%;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
 }
 
 /* set input type text to full width */
-#todo, input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-  }
+#todo,
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
 
-  /* style for the submit button */
-  .btn {
-    background-color: rgb(76, 175, 80);
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    width: 110%;
-    opacity: 0.9;
-    font-size: 15px;
-  }
+/* style for the submit button */
+.btn {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  width: 110%;
+  opacity: 0.9;
+  font-size: 15px;
+}
 
-  .cancel{
-    background-color: rgb(248, 21, 4);
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    width: 110%;
-    opacity: 0.9;
-    font-size: 15px;
-  }
-
-
-
-
-
+.cancel {
+  background-color: rgb(248, 21, 4);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  width: 110%;
+  opacity: 0.9;
+  font-size: 15px;
+}
